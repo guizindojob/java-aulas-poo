@@ -1,6 +1,11 @@
 package br.sesi.gla.poo.tronco;
 
 public class Tronco {
-    Braco bracoEsquerdo;
-    Braco bracoDireito;
+    public Braco bracodireito;
+    public Braco bracoesquerdo;
+
+    public Tronco() {
+        this.bracoesquerdo = new Braco();
+        this.bracodireito = new Braco();
+    }
 }
